@@ -7,13 +7,13 @@ unit5=float(input("Enter the unit5 marks: "))
 unit6=float(input("Enter the unit6 marks: "))
 mean_score=(unit1+unit2+unit3+unit4+unit5+unit6)/6
 if(mean_score<=39):
-    print("You have a fail")
+    print("your mean score is:", mean_score, "You have a fail")
 elif(mean_score>=40 and mean_score<=49):
-    print("You have a D")
+    print("your mean score is:", mean_score, "You have a D")
 elif(mean_score>=50 and mean_score<=59):
-    print("You have a C")
+    print("your mean score is:",mean_score, "You have a C")
 elif(mean_score>=60 and mean_score<=69):
-    print("You have a B")
+    print("your mean score is:", mean_score, "You have a B")
 else:
-    print("You have an A")
+    print("your mean score is:", mean_score, "You have an A")
     
